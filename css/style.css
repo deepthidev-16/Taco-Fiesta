@@ -23,6 +23,9 @@
   background-color: var(--PRIMARY-COLOR);
   width: 100%;
   transition: all 0.3s ease;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
 }
 .navbar a:hover,
 .navbar .material-symbols-outlined:hover {
@@ -84,6 +87,7 @@ html {
 }
 body {
   margin: 0 auto;
+  padding-top: 44px;
 }
 header {
   top: 0;

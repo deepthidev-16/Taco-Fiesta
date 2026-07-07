@@ -115,7 +115,7 @@ main {
   line-height: 2.5rem;
 }
 .info {
-  margin: 1em 0;
+  margin: 1em;
 }
 .products {
   text-align: center;
@@ -320,6 +320,7 @@ legend {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+   border: none;
 }
 .btn:hover {
   background-color: #e85a24;
@@ -336,6 +337,7 @@ legend {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  border: none;
 }
 .btn-primary:hover {
   background-color: #e85a24;
@@ -352,6 +354,7 @@ legend {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+   border: none;
 }
 .btn-secondary:hover {
   background-color: #f4b942;
